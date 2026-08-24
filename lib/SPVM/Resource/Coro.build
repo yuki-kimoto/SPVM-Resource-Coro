@@ -1,10 +1,7 @@
 # Copyright (c) 2023 Yuki Kimoto
 # MIT License
 
-use strict;
-use warnings;
 use Config;
-use SPVM::Builder::Config;
 
 sub get_coro_defines_string {
   # Copied from Coro/Makefile.PL
